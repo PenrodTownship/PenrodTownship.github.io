@@ -1,2 +1,89 @@
-/* Some styles to come here
-*/
+/*--------------------------------------------------------------
+Font styling
+--------------------------------------------------------------*/
+
+/** Beatrice Display **/
+@font-face {
+  font-family: "Beatrice Display Bold";
+  src: url(../fonts/BeatriceDisplay-Bold.otf);
+}
+
+
+/** Beatrice Thin **/
+@font-face {
+  font-family: "Beatrice Thin";
+  src: url(../fonts/Beatrice-Thin.otf);
+}
+
+/** Beatrice Light **/
+@font-face {
+  font-family: "Beatrice Light";
+  src: url(../fonts/Beatrice-Light.otf);
+}
+
+/** Beatrice Regular **/
+@font-face {
+  font-family: "Beatrice Regular";
+  src: url(../fonts/Beatrice-Regular.otf);
+}
+
+/** Beatrice Medium **/
+@font-face {
+  font-family: "Beatrice Medium";
+  src: url(../fonts/Beatrice-Medium.otf);
+}
+
+/** Beatrice Regular **/
+@font-face {
+  font-family: "Beatrice Semibold";
+  src: url(../fonts/Beatrice-Semibold.otf);
+}
+
+/** Beatrice Regular **/
+@font-face {
+  font-family: "Beatrice Bold";
+  src: url(../fonts/Beatrice-Bold.otf);
+}
+
+/** Space Grotesk Bold **/
+@font-face {
+  font-family: "Space Grotesk Bold";
+  src: url(../fonts/SpaceGrotesk-Bold.otf);
+}
+
+/** Space Grotesk SemiBold **/
+@font-face {
+  font-family: "Space Grotesk SemiBold";
+  src: url(../fonts/SpaceGrotesk-SemiBold.otf);
+}
+
+/** Space Grotesk Regular **/
+@font-face {
+  font-family: "Space Grotesk Regular";
+  src: url(../fonts/SpaceGrotesk-Regular.otf);
+}
+
+/** Marr Sans Regular **/
+@font-face {
+  font-family: "Marr Sans Regular";
+  src: url(../fonts/MarrSans-Regular.otf);
+}
+
+
+/*--------------------------------------------------------------
+General styling
+--------------------------------------------------------------*/
+
+/** Box model declaration **/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/** Sets global base-10 sizing for responsive REM measurements for font sizing as well as for box sizing; makes for easy math; 1.6rem=16px 2.4rem=24px **/
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: white;
+}

@@ -1,0 +1,329 @@
+/*--------------------------------------------------------------
+Hero Area: Nav
+--------------------------------------------------------------*/
+
+
+#hero-about {
+  background-color: #3e3e3e;
+  height: 80rem;
+  margin-bottom: 16rem;
+  padding: 3.5rem 6% 0 6%;
+  width: 100%;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 150rem;
+}
+
+@media (max-width: 520px) {
+  nav img {
+    width: 5.1rem;
+  }
+}
+
+/* nav link style/position */
+nav li a {
+  color: rgba(188, 157, 94, 1);
+  font-size: 1.6rem;
+  font-family: "Space Grotesk SemiBold";
+  text-decoration: none;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: block;
+  float: left;
+  margin-left: 2rem;
+}
+
+
+/* hero display type styling */
+
+#about-header {
+  display: grid;
+  grid-template-columns: 1fr 35rem 1fr 52rem 1fr;
+  grid-template-rows: 1;
+  grid-template-areas:
+  ". tagline . headerimg .";
+  max-width: 150rem;
+  margin: 4rem auto 0 auto;
+}
+
+#about-header h1 {
+  color: #fff;
+  font-size: 5rem;
+  font-family: "Beatrice Regular";
+  grid-area: tagline;
+  letter-spacing: -1px;
+  line-height: 1.3;
+  width: 37.5rem;
+}
+
+/* about bio photo */
+#about-header img {
+  grid-area: headerimg;
+  margin: 0;
+  width: 518px;
+}
+
+
+  @media (max-width: 1100px) {
+
+    #about-header h1 {
+      font-size: 4rem;
+      line-height: 140%;
+      width: 28rem;
+    }
+
+  }
+
+  @media (max-width: 900px) {
+
+    #hero-about {
+      margin-bottom: 8rem;
+      height: auto;
+      padding-bottom: 8rem;
+    }
+
+    #about-header {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    #about-header h1 {
+      font-size: 3rem;
+      line-height: 1.4;
+      letter-spacing: 0px;
+      margin: 6rem auto 0 auto;
+      text-align: center;
+      width: 50rem;
+    }
+
+    #about-header img {
+      margin: 1.5rem auto 0 auto;
+    }
+
+  }
+
+  @media (max-width: 550px) {
+    #about-header img {
+      width: 400px;
+    }
+
+    #about-header h1 {
+      width: 40rem;
+    }
+
+  }
+
+  @media (max-width: 450px) {
+    #about-header img {
+      width: 280px;
+    }
+
+    #about-header h1 {
+      font-size: 2.5rem;
+      width: 30rem;
+    }
+
+  }
+
+  @media (max-width: 350px) {
+    #about-header img {
+      width: 250px;
+    }
+
+    #about-header h1 {
+      width: 25rem;
+    }
+  }
+
+
+/*--------------------------------------------------------------
+Main Area
+--------------------------------------------------------------*/
+
+main {
+  margin: 0 auto;
+  padding: 0 2rem 0 2rem;
+}
+
+/** gold rules **/
+.gold-rule {
+  background-color: rgba(188, 157, 94, 0.5);
+  margin: 0 auto 5rem auto;
+  width: 13.8rem;
+  height: 2rem;
+}
+
+#bio-part-1 {
+  margin-top: 8rem;
+}
+
+#bio-part-1, #bio-part-2 {
+  margin-bottom: 15rem;
+}
+
+  /*mobile breakpoint*/
+  @media (max-width: 500px)  {
+    #bio-part-1 {
+      margin-top: 8rem;
+      margin-bottom: 8rem;
+    }
+
+    #bio-part-2 {
+      margin-bottom: 18rem;
+    }
+  }
+
+main#about-body p {
+  color: #4A4A4A;
+  font-size: 2.6rem;
+  font-family: "Space Grotesk Regular";
+  line-height: 1.6;
+  margin: 0 auto 5rem auto;
+  max-width: 102rem;
+}
+
+  /*tablet breakpoint*/
+  @media (max-width: 600px)  {
+    main#about-body p {
+      font-size: 2rem;
+    }
+  }
+
+  /*tablet mobile*/
+  @media (max-width: 400px)  {
+    main#about-body p {
+      font-size: 1.8rem;
+    }
+  }
+
+main .first-graf span {
+  color: #000;
+  font-family: "Space Grotesk Bold";
+}
+
+main #bio-question p {
+  color: #000;
+  font-family: "Beatrice Light";
+  font-size: 5.1rem;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+/** Question: Non Beatrice span styling **/
+main section#bio-question #comma-q, section#bio-question #how-q {
+  font-family: "Space Grotesk Regular";
+  font-size: 5.1rem;
+}
+
+main #how-q {
+  margin-left: 0.5rem;
+}
+
+  /*small mobile question*/
+  @media (max-width: 1100px)  {
+    main #bio-question p {
+      border-bottom: none;
+      font-size: 3.6rem;
+      line-height: 1.1;
+      /* margin-top: 3rem; */
+      margin-bottom: 5rem;
+    }
+
+    main section#bio-question #comma-q, section#bio-question #how-q {
+      /* font-family: "Space Grotesk SemiBold"; */
+      font-size: 3.6rem;
+    }
+  }
+
+
+
+/*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+footer {
+  /* background-color: pink; */
+  margin: 1rem auto 0 auto;
+  max-width: 38rem;
+  padding-bottom: 5vh;
+}
+
+footer img {
+  display: inline-block;
+  float: left;
+  margin-right: 1rem;
+}
+
+footer p#email a {
+  color: rgba(188, 157, 94, 1);
+  font-family: "Space Grotesk Regular";
+  font-size: 2.4rem;
+  text-decoration: none;
+}
+
+footer p#email {
+  display: block;
+  padding-top: 3.6rem;
+}
+
+.footer-links a, .dots {
+  color: rgba(188, 157, 94, 1);
+  text-decoration: none;
+}
+
+.footer-links {
+  margin: 1rem auto 0 auto;
+}
+
+.footer-links li {
+  display: inline-block;
+  font-family: "Space Grotesk Regular";
+  font-size: 1.5rem;
+  /* margin: 1rem 0 0 0; */
+  text-align: left;
+}
+
+/* Dots between social links*/
+footer li p {
+  margin: 0 1rem;
+}
+
+
+  /*mobile footer*/
+  @media (max-width: 1100px)  {
+
+    footer {
+      max-width: 26rem;
+      margin: 1rem auto 0 auto;
+      padding-left: 0;
+    }
+
+    footer img {
+      display: block;
+      margin: 0 auto;
+      float: none;
+    }
+
+    footer p#email {
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 1.25rem;
+    }
+
+    footer p#email a {
+      font-size: 2.4rem;
+    }
+
+    .footer-links {
+      margin: 1rem auto 0 1.15rem;
+    }
+
+  }
