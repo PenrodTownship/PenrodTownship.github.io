@@ -85,7 +85,6 @@ header {
 
 #hero-about h2 {
   font-size: 5.7rem;
-  /* font-family: "Beatrice Thin"; */
   font-family: "Beatrice Regular";
   grid-area: role;
   letter-spacing: -1px;
@@ -111,7 +110,6 @@ header img {
 }
 
   /* lrg tablet hed/position adjustments */
-  /* @media (max-width: 1370px) { */
   @media (max-width: 1500px) {
     #hero-about {
       height: 65rem;
@@ -134,7 +132,6 @@ header img {
 }
 
   /* med tablet hed/position adjustments */
-  /* @media (max-width: 950px) { */
 
   @media (max-width: 1238px) {
     #hero-about {
@@ -144,7 +141,6 @@ header img {
   }
 
   /* small tablet hed/position adjustments */
-  /* @media (max-width: 750px) { */
 
   @media (max-width: 1016px) {
     #hero-about {
@@ -272,7 +268,6 @@ a:hover .caption {
 	margin: 0;
 	font-size: 1.9rem;
 	line-height: 1.1;
-  /* background: blue; */
   display: inline-block;
 }
 
@@ -282,15 +277,12 @@ a:hover .caption {
   letter-spacing: .1rem;
   line-height: 1.1;
   margin-top: .25rem;
-  /* background: red; */
   text-transform: uppercase;
 }
 
 i {
-  /* background: pink; */
   font-size: 1.5rem;
   margin-left: .3rem;
-  /* float: right; */
 }
 
 /*--------------------------------------------------------------
