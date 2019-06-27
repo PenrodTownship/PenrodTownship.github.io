@@ -37,8 +37,15 @@ nav ul {
 nav li {
   display: block;
   float: left;
-  margin-left: 2rem;
+  margin-left: 3.5rem;
 }
+
+        /* puts links closer together */
+        @media (max-width: 350px) {
+          nav li {
+            margin-left: 1.5rem;
+          }
+        }
 
 
 /* hero display type styling */

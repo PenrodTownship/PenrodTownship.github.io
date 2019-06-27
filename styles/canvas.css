@@ -1,4 +1,8 @@
 
+body {
+  overflow-x: hidden;
+}
+
 /*--------------------------------------------------------------
 Hero Area: Type color
 --------------------------------------------------------------*/
@@ -46,8 +50,16 @@ nav ul {
 nav li {
   display: block;
   float: left;
-  margin-left: 2rem;
+  margin-left: 3.5rem;
 }
+
+        /* puts links closer together */
+        @media (max-width: 350px) {
+          nav li {
+            margin-left: 1.5rem;
+          }
+        }
+
 
 
 /*--------------------------------------------------------------
@@ -92,6 +104,39 @@ Hero Area: Type Style + Positioning
 
 .hero span {
   margin: 0 1rem;
+}
+
+.hero button {
+  background-color: #33335d;
+  margin-top: 4rem;
+  padding: 1.4rem;
+  padding-top: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: none;
+  text-transform: uppercase;
+  font-family: "Space Grotesk SemiBold";
+  /* font-family: "Marr Sans Regular"; */
+  font-size: 1.3rem;
+  letter-spacing: .25rem;
+}
+
+.hero button a {
+  /* color: #eee; */
+  color: #dfdfdf;
+  /* color: #f8f8f8; */
+  /* color: white; */
+  /* color: rgba(23, 145, 104, 1); */
+  text-decoration: none;
+}
+
+.hero a:hover {
+  box-shadow: none;
+  color: #76DFA3;
+}
+
+a:focus, a:hover {
+  box-shadow: inset 0px -8px 0 #179168;
 }
 
 .hero p {
@@ -163,6 +208,10 @@ Hero Area: Type Style + Positioning
           width: auto;
         }
 
+        main .roles h3 {
+          margin-top: 9rem;
+        }
+
       }
 
 
@@ -209,6 +258,7 @@ main p#overview-summary, p.section-summary {
 
 main .section-hero img {
   margin-top: 8rem;
+  overflow-x: hidden;
 }
 
 main h3 {
